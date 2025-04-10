@@ -52,10 +52,6 @@ That's it — no installation required!
 - A modern web browser
 - No server or framework required (fully static)
 
-## 📸 Preview
-
-*(Optional: Add a screenshot or GIF preview of the site here)*
-
 ## 📄 License
 
 This project is for educational purposes only. Feel free to modify and use it for learning or showcasing your HTML/CSS/JS skills.
