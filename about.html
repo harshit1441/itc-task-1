@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About | ITC</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <img src="assets/logo.png" alt="ITC Logo" />
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- About Section -->
+  <main class="content-section" data-aos="fade-up">
+    <h1>About ITC</h1>
+    <p>Welcome to the Interdisciplinary Technical Council (ITC) of IIT Bombay. We foster innovation, collaboration, and excellence across various technical domains through our student-led initiatives.</p>
+
+    <!-- Clubs Subsection -->
+    <section class="subsection" data-aos="fade-up">
+      <h2>Technical Clubs</h2>
+      <div class="cards-container">
+        <div class="card" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/chemistryclub.png" alt="Chemistry Club" />
+          <div class="card-content">
+            <h2>Chemistry Club</h2>
+            <p>Explore the magic of molecules with exciting chemistry experiments and events.</p>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
+          <img src="assets/bioxclub.png" alt="BioX Club" />
+          <div class="card-content">
+            <h2>BioX Club</h2>
+            <p>Innovating at the intersection of biology and technology for the future.</p>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="300">
+          <img src="assets/krittikaclub.png" alt="Krittika Club" />
+          <div class="card-content">
+            <h2>Krittika Club</h2>
+            <p>Stargazing, astrophotography, and exploring the cosmos with like-minded enthusiasts.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Teams Subsection -->
+    <section class="subsection" data-aos="fade-up">
+      <h2>Technical Teams</h2>
+      <div class="cards-container">
+        <div class="card" data-aos="fade-up" data-aos-delay="100">
+          <img src="assets/auvteam.jpeg" alt="AUV Team" />
+          <div class="card-content">
+            <h2>AUV Team</h2>
+            <p>Designing autonomous underwater robots to solve real-world challenges.</p>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="200">
+          <img src="assets/marsroverteam.jpeg" alt="Mars Rover Team" />
+          <div class="card-content">
+            <h2>Mars Rover Team</h2>
+            <p>Building planetary rovers for international university competitions and beyond.</p>
+          </div>
+        </div>
+        <div class="card" data-aos="fade-up" data-aos-delay="300">
+          <img src="assets/exoflyteam.png" alt="ExoFly Team" />
+          <div class="card-content">
+            <h2>ExoFly Team</h2>
+            <p>Creating aerial vehicles for missions in uncharted and extreme environments.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- AOS Animation Library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ITC | Home</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <script defer src="js/script.js"></script>
+</head>
+<body class="home-page">
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">
+      <a href="index.html">
+        <img src="assets/logo.png" alt="ITC Logo">
+      </a>
+    </div>
+    <nav>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero" data-aos="fade-up">
+    <div class="hero-content">
+      <h1>Institute Technical Council</h1>
+      <p>Empowering innovation, building futures – the tech heart of IIT Bombay.</p>
+      <a href="about.html" class="btn">Learn More</a>
+    </div>
+  </section>
+
+  <!-- AOS animation library -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+
+    function toggleMenu() {
+      document.getElementById("navLinks").classList.toggle("active");
+    }
+  </script>
+</body>
+</html>

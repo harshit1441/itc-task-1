@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact | ITC</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css"/>
+  <script defer src="js/script.js"></script>
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">
+      <img src="assets/logo.png" alt="ITC Logo" height="40" />
+    </div>
+    <nav>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="events.html">Events</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+      <div class="hamburger" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="content-section" data-aos="fade-up">
+    <h1>Contact Us</h1>
+    <p>Got questions, suggestions, or feedback? We'd love to hear from you.</p>
+    
+    <form class="contact-form" name="contact" method="POST" data-netlify="true">
+      <input type="text" name="name" placeholder="Your Name" required data-aos="fade-up" data-aos-delay="100"/>
+      <input type="email" name="email" placeholder="Your Email" required data-aos="fade-up" data-aos-delay="200"/>
+      <textarea name="message" placeholder="Your Message" required data-aos="fade-up" data-aos-delay="300"></textarea>
+      <button type="submit" class="btn" data-aos="fade-up" data-aos-delay="400">Send Message</button>
+    </form>
+  </main>
+
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
